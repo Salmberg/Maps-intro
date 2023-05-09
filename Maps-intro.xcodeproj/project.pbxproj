@@ -14,6 +14,8 @@
 		CB89ACE32A0A74E8003D7164 /* Maps_introTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB89ACE22A0A74E8003D7164 /* Maps_introTests.swift */; };
 		CB89ACED2A0A74E8003D7164 /* Maps_introUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB89ACEC2A0A74E8003D7164 /* Maps_introUITests.swift */; };
 		CB89ACEF2A0A74E8003D7164 /* Maps_introUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB89ACEE2A0A74E8003D7164 /* Maps_introUITestsLaunchTests.swift */; };
+		CB89ACFC2A0A7657003D7164 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB89ACFB2A0A7657003D7164 /* Place.swift */; };
+		CB89ACFE2A0A7A89003D7164 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB89ACFD2A0A7A89003D7164 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		CB89ACE82A0A74E8003D7164 /* Maps-introUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maps-introUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB89ACEC2A0A74E8003D7164 /* Maps_introUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maps_introUITests.swift; sourceTree = "<group>"; };
 		CB89ACEE2A0A74E8003D7164 /* Maps_introUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maps_introUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB89ACFB2A0A7657003D7164 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		CB89ACFD2A0A7A89003D7164 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				CB89ACD32A0A74E7003D7164 /* ContentView.swift */,
 				CB89ACD52A0A74E8003D7164 /* Assets.xcassets */,
 				CB89ACD72A0A74E8003D7164 /* Preview Content */,
+				CB89ACFB2A0A7657003D7164 /* Place.swift */,
+				CB89ACFD2A0A7A89003D7164 /* LocationManager.swift */,
 			);
 			path = "Maps-intro";
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB89ACFE2A0A7A89003D7164 /* LocationManager.swift in Sources */,
+				CB89ACFC2A0A7657003D7164 /* Place.swift in Sources */,
 				CB89ACD42A0A74E7003D7164 /* ContentView.swift in Sources */,
 				CB89ACD22A0A74E7003D7164 /* Maps_introApp.swift in Sources */,
 			);
@@ -420,6 +428,7 @@
 				DEVELOPMENT_TEAM = 5A8L7XTFM2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Snälla ge mig all din data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +458,7 @@
 				DEVELOPMENT_TEAM = 5A8L7XTFM2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Snälla ge mig all din data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
